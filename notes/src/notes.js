@@ -29,8 +29,7 @@ const removeNote = (title) => {
     } else {
         console.log(chalk.red.inverse('No notes found!'))
     }
-}
-
+} 
 const readNote = (title) => {
     const notes = loadNotes()
     const foundNote = notes.find(function(note) {
